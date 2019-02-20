@@ -1,0 +1,10 @@
+<div class="timerangepicker">
+
+    <select name="{{name}}" v-model="value" class="form-control">
+        <option v-if="value ===''" value="" selected>{{ placeholder }}</option>
+        <!--<option selected value="0">Select</option>-->
+        <!--<option v-for="(index, slot) in slots" value="{{slot.interval}}" selected="{{ index == 0 ? true : false }}">{{ slot.text }}</option>-->
+        <option v-for="(index, slot) in slots" value="{{slot.interval}}">{{ slot.text }}</option>
+    </select>
+
+</div>

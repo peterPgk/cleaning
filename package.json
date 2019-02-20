@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "admin-lte": "^2.3.6",
+    "bootstrap-daterangepicker": "^2.1.24",
+    "bootstrap-sass": "^3.3.7",
+    "bootstrap-slider": "^9.2.0",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "jquery": "^3.1.0",
+    "laravel-elixir": "^6.0.0-9",
+    "laravel-elixir-browsersync-official": "^1.0.0",
+    "laravel-elixir-vue": "^0.1.4",
+    "laravel-elixir-webpack-official": "^1.0.2",
+    "lodash": "^4.14.0",
+    "moment-range": "^2.2.0",
+    "sass-loader": "^4.0.2",
+    "select2": "^4.0.3",
+    "url-loader": "^0.5.7",
+    "vue": "1.0.26",
+    "vue-bootstrap-modal": "^0.1.13",
+    "vue-bulma-chartjs": "^1.0.0",
+    "vue-html-loader": "^1.2.3",
+    "vue-resource": "^0.9.3",
+    "vue-router": "^0.7.13",
+    "vue-spinner": "^1.0.2",
+    "vue-strap": "^1.1.23",
+    "vue-tables": "^1.6.36",
+    "vuex": "^1.0.0-rc.2",
+    "webpack-merge": "^0.14.1"
+  },
+  "dependencies": {
+    "install": "^0.8.1",
+    "isotope-layout": "^3.0.1",
+    "npm": "^3.10.8",
+    "vue-animate": "0.0.4",
+    "vue-bulma-rating": "^1.0.0",
+    "vueisotope": "^1.1.0"
+  }
+}

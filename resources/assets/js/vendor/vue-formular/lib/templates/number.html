@@ -1,0 +1,13 @@
+ <input type="number"
+        :debounce="debounce"
+        lazy={{lazy}}
+        name="{{name}}"
+        v-model="value"
+        class="form-control number"
+        placeholder="{{placeholder}}"
+        :disabled="disabled"
+        @change="validateRemote()"
+        :min="min"
+        :max="max"
+        :step="step"
+ >

@@ -1,0 +1,10 @@
+<span class="VF-Field__file-upload">
+  <span class='glyphicon glyphicon-upload VF-Field__file-upload-icon'></span>
+  <input :disabled="disabled" type="file" name="{{name}}" class="form-control">
+    <div id="progress" class="progress">
+        <div class="progress-bar progress-bar-success">
+            <div id="file" class="file_{{name}}"></div>
+        </div>
+    </div>
+  <span class="VF-Field__file_uploaded glyphicon glyphicon-ok" title="{{value}}" v-if="uploaded"></span>
+</span>

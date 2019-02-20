@@ -1,0 +1,16 @@
+<div class="input-group num">
+    <span class="input-group-btn">
+      <button type="button" class="btn btn-default btn-number" :disabled="minVal" @click="decrement()">
+          <span class="glyphicon glyphicon-minus"></span>
+      </button>
+    </span>
+
+    <input type="number" :debounce="debounce" lazy={{lazy}} name="{{name}}" v-model="value" class="form-control"
+           placeholder="{{placeholder}}" :disabled="disabled" :min="min" :max="max" @change="validateRemote()">
+
+    <span class="input-group-btn">
+      <button type="button" class="btn btn-default btn-number" :disabled="maxVal" @click="increment()">
+          <span class="glyphicon glyphicon-plus"></span>
+      </button>
+    </span>
+</div>

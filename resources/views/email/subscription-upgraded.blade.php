@@ -1,0 +1,1 @@
+Your account has been upgraded to {{$company->getCompanySubscriptionPlan()->stripe_plan}} !

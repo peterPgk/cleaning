@@ -1,0 +1,1 @@
+Your subscription to compare.ofertico.com has benn canceled!

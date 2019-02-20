@@ -1,0 +1,1 @@
+Alert: You have {{$count}} bookings left on your package

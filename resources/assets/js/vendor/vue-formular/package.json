@@ -1,0 +1,115 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "vue-formular@^1.0.2",
+        "scope": null,
+        "escapedName": "vue-formular",
+        "name": "vue-formular",
+        "rawSpec": "^1.0.2",
+        "spec": ">=1.0.2 <2.0.0",
+        "type": "range"
+      },
+      "/home/borislav/Code/php/cleaning-site"
+    ]
+  ],
+  "_from": "vue-formular@>=1.0.2 <2.0.0",
+  "_id": "vue-formular@1.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/vue-formular",
+  "_nodeVersion": "6.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/vue-formular-1.0.2.tgz_1474491357063_0.28950058622285724"
+  },
+  "_npmUser": {
+    "name": "matfish2",
+    "email": "matfish2@gmail.com"
+  },
+  "_npmVersion": "3.10.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "vue-formular@^1.0.2",
+    "scope": null,
+    "escapedName": "vue-formular",
+    "name": "vue-formular",
+    "rawSpec": "^1.0.2",
+    "spec": ">=1.0.2 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-formular/-/vue-formular-1.0.2.tgz",
+  "_shasum": "26b556ef9c6e70954b6501ab95c0390461148e2b",
+  "_shrinkwrap": null,
+  "_spec": "vue-formular@^1.0.2",
+  "_where": "/home/borislav/Code/php/cleaning-site",
+  "browserify": {
+    "transform": [
+      "stringify"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/matfish2/vue-formular/issues"
+  },
+  "dependencies": {
+    "clone": "^1.0.2",
+    "merge": "^1.2.0",
+    "moment": "^2.10.6",
+    "vue": "^1.0.10",
+    "vue-resource": ">=0.9.0"
+  },
+  "description": "a comprehensive vue.js form component",
+  "devDependencies": {
+    "daterangepicker": "0.0.3",
+    "jasmine-core": "^2.3.4",
+    "jquery": "^2.1.4",
+    "karma": "^0.13.15",
+    "karma-browserify": "^4.4.1",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.6",
+    "stringify": "^3.2.0",
+    "vue": "^1.0.10"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "26b556ef9c6e70954b6501ab95c0390461148e2b",
+    "tarball": "https://registry.npmjs.org/vue-formular/-/vue-formular-1.0.2.tgz"
+  },
+  "files": [
+    "lib",
+    "index.js",
+    "tonic-example.js"
+  ],
+  "gitHead": "8cd2e1359d1f30c56a6b2948d115170cd2e66991",
+  "homepage": "https://github.com/matfish2/vue-formular#readme",
+  "keywords": [
+    "vue",
+    "form",
+    "validation",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "matfish2",
+      "email": "matfish2@gmail.com"
+    }
+  ],
+  "name": "vue-formular",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matfish2/vue-formular.git"
+  },
+  "scripts": {
+    "build": "browserify index.js --s VueFormular | uglifyjs -c > ../../../public/vue-formular.min.js",
+    "build-min": "browserify index.js --s VueFormular | uglifyjs -c > dist/vue-formular.min.js"
+  },
+  "version": "1.0.2"
+}

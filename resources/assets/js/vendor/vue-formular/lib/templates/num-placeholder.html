@@ -1,0 +1,46 @@
+<style>
+    .num-placeholder {
+        position: relative;
+    }
+    .num-placeholder input {
+        z-index: 2;
+        font-size: 0;
+    }
+    .num-placeholder .btn-number {
+        min-width: 40px !important;
+    }
+    .num-placeholder .btn-number:active,
+    .num-placeholder .btn-number:hover,
+    .num-placeholder .btn-number:focus,
+    .num-placeholder .btn-number:visited {
+        outline: none;
+    }
+    .num-placeholder-label {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: calc(100% - 100px);
+        z-index: 80;
+        left: 50px;
+        text-align: center;
+        line-height: 2.5;
+    }
+</style>
+<div class="input-group num-placeholder">
+    <span class="input-group-btn">
+      <button type="button" class="btn btn-default btn-number" :disabled="minVal" @click="decrement()">
+          <span class="glyphicon glyphicon-minus"></span>
+      </button>
+    </span>
+
+    <input type="number" :debounce="debounce" lazy={{lazy}} name="{{name}}" v-model="value" class="form-control"
+           placeholder="{{placeholder}}" disabled="disabled" :min="min" :max="max" @change="validateRemote()">
+
+    <label class="num-placeholder-label">{{_text}}</label>
+
+    <span class="input-group-btn">
+      <button type="button" class="btn btn-default btn-number" :disabled="maxVal" @click="increment()">
+          <span class="glyphicon glyphicon-plus"></span>
+      </button>
+    </span>
+</div>

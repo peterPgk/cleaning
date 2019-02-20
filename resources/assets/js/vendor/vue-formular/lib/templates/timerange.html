@@ -1,0 +1,19 @@
+<div class="timerangepicker form-inline">
+
+    <div class="time-select">
+        <label for="from">From Hour</label>
+        <select name="from" id="from" v-model="from">
+            <!--<option value="Select Time"></option>-->
+            <option v-for="time in times" value="{{time}}">{{time}}</option>
+        </select>
+    </div>
+
+    <div class="time-select">
+        <label for="to">To Hour</label>
+        <select name="to" id="to" v-model="to">
+            <!--<option value="Select Time"></option>-->
+            <option v-for="time in times" value="{{time}}">{{time}}</option>
+        </select>
+    </div>
+
+</div>

@@ -1,0 +1,2 @@
+Това е акордеона на vue-comps
+https://github.com/vue-comps/vue-collapsible
